@@ -15,7 +15,7 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-20.04
-    container: python:3.11@sha256:6b023894c26ea77c602814d8b682507e1f9dd731038e25f93381b488ca9e7176
+    container: python:3.14@sha256:1c4c033d666001d84b5c4d85280af2c5a21a4ea1eb86c2fc06e3ef2f33fa6776
     steps:
       - name: Checkout
         uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
